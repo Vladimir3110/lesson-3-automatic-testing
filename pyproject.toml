@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lesson-3-automatic-testing"
+version = "0.1.0"
+description = ""
+authors = ["delvan <<anikeev30@yandex.ru>>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flak8]
+exclude = "__pycach__,.git"
